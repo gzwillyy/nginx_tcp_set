@@ -20,7 +20,7 @@ curl https://io.bt.sb/install/update_panel.sh|bash
 
 
 ```
-curl -sSL https://github.com/gzwillyy/nginx_tcp_set/raw/master/build_tcp_conf.sh | bash
+curl -L -o build_tcp_conf  https://github.com/gzwillyy/nginx_tcp_set/raw/master/build_tcp_conf
 
 curl -sSL https://github.com/gzwillyy/nginx_tcp_set/raw/master/optimize_system.sh | bash
 ```
