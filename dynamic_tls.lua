@@ -1,5 +1,3 @@
-
--- dynamic_tls.lua
 local _M = {}
 
 -- 动态加载证书和私钥
@@ -67,4 +65,3 @@ function _M.load_cert()
 end
 
 return _M
-
